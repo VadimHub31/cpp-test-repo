@@ -12,7 +12,9 @@ void PrintRange(It range_begin, It range_end) {
             cout << *i;
             is_first = false;
         }
-        cout << " "s << *i;
+        else {
+            cout << " "s << *i;
+        }
     }
     cout << endl;
 }
